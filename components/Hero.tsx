@@ -30,7 +30,7 @@ const Hero = () => {
             <div className="flexStart gap-1 pt-6">
               <Button
               type='button'
-              title='Lihat Selengkap'
+              title='Lihat Selengkapnya'
               variant='btn_dark_rounded'
               />
             </div>
