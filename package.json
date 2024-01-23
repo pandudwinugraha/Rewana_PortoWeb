@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "deploy": "npx next build && npx next export && gh-pages -d out",
     "dev": "next dev",
     "build": "next build",
     "export": "next export",
@@ -21,7 +20,6 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
-    "gh-pages": "^6.1.1",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
