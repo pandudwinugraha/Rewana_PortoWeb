@@ -8,11 +8,13 @@ const Tentang = () => {
           Tentang Rewana
         </div>
       </div>
-      <div className="flex flex-row-reverse gap-20 md:gap-28 xl:flex-row">
-        <div className="flex-1">
+      <div className="flex flex-col gap-20 md:gap-28 xl:flex-row-reverse">
+        {/* Gambar di atas di layar kecil, di kanan di layar besar */}
+        <div className="flex-1 md:order-2">
           <img src="/Gambar_Rewana.png" alt="Rewana" className="max-w-full h-auto" />
         </div>
-        <div className="flex-1 flexCenter flex-col m-auto text-left" style={{ marginRight: '2cm' }}>
+        {/* Tulisan di bawah di layar kecil, di kiri di layar besar */}
+        <div className="flex-1 flexCenter flex-col m-auto text-left md:order-1" style={{ marginRight: '2cm' }}>
           <p className='mb-8'>
             <span className='reguler-16 max-w-[555px] my-4'>
               <span className='font-extrabold'>Rewana Tim</span> dolor sit amet consectetur. Ut metus aliquam dictumst ut. Sem nunc volutpat elit ligula pharetra fringilla libero diam sagittis. Maecenas et mauris sed nisl. Faucibus neque nunc semper tincidunt. Ornare enim fermentum eget lorem orci egestas nulla. Sit donec facilisis pellentesque quam. Nec ac id nisl ac fermentum. Id placerat eu morbi lectus tellus mauris sem. Convallis aliquet ac sapien viverra nibh in. Suspendisse.
@@ -24,4 +26,4 @@ const Tentang = () => {
   );
 };
 
-export default Tentang;
+export default Tentang

@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero"
 import Kontak from "@/components/Kontak"
+import Pembina from "@/components/Pembina"
 import Proyek from "@/components/Proyek"
 import Tentang from "@/components/Tentang"
 import Tim from "@/components/Tim"
@@ -11,6 +12,7 @@ const page = () => {
       <>
         <Hero/>
         <Tentang/>
+        <Pembina/>
         <Tim/>
         <Proyek/>
         <Kontak/>

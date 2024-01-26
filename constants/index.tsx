@@ -7,6 +7,16 @@ export const NAV_LINKS = [
   { href: "/", key: "kontak", label: "Kontak" },
 ];
 
+//PEMBINA TIM
+export const PEMBINA= [
+  {
+    title: "backend",
+    icon: "/backend.svg",
+    description:
+      "Backend development focuses on server-side programming, databases, and server management to create the functional infrastructure that powers websites and applications",
+  },
+];
+
 // TIM SECTION
 export const TIM = [
   {
@@ -27,6 +37,7 @@ export const TIM = [
     description:
       "Full-stack development encompasses both frontend and backend programming, enabling developers to create complete, end-to-end web applications, handling user interfaces,",
   },
+  
 ];
 
 // PROYEK SECTION
