@@ -19,9 +19,6 @@ const Tim = () => {
   )
 }
 
-export default Tim
-
-
 type  TimItem = {
   title: string;
   icon: string;
@@ -37,10 +34,12 @@ const TimItem = ({ title, icon, description }: TimItem) => {
           alt="map"
           width={28}
           height={28}
-        />
+          />
       </div>
       <h3 className="bold-20 lg:bold-22 mt-6 capitalize group-hover:text-white">{title}</h3>
       <p className="regular-16 text-gray-30 mt-4 group-hover:text-white">{description}</p>
     </li>
   )
 }
+
+export default Tim

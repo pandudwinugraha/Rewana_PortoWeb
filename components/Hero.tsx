@@ -35,18 +35,18 @@ const Hero = () => {
       </div>
 
       {/* RIGHT - YouTube Video Container */}
-      <div className="relative z-20 flex flex-1 flex-col pt-1 video-container" style={{ margin: '0 auto', maxWidth: '90%' }}>
-        <iframe
-          title="Rewana Portofolio"
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/LKCHNKYcDsY?si=WiHYE_i4gVQ5UHv8"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-          style={{ borderRadius: '20px', width: '100%' }}
-        ></iframe>
-      </div>
+        <div className="relative z-20 flex flex-1 flex-col pt-1 video-container" style={{ margin: '0 auto', maxWidth: '90%', border: '1px solid white', borderRadius: '20px', boxShadow: '0px 8px 16px 0px rgba(0,0,0,0.4)' }}>
+          <iframe
+            title="Rewana Portofolio"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/LKCHNKYcDsY?si=WiHYE_i4gVQ5UHv8"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            style={{ borderRadius: '20px', width: '100%' }}
+          ></iframe>
+        </div>
     </section>
   );
 };
